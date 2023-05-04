@@ -1,0 +1,1 @@
+CC="gcc" CFLAGS="-Wall" make latihan1
