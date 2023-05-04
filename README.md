@@ -4,6 +4,7 @@ Learn makefile in
 [Learn Makefile](https://makefiletutorial.com)
 atau
 [Penggunaan GNU Make dalam Kegiatan Pemrograman C](http://okaprinarjaya.github.io/penggunaan-gnu-make-dalam-kegiatan-pemrograman-c/)
+atau [GNU make](https://www.gnu.org/software/make/manual/make.html)
 
 ## Apa itu make?
 
