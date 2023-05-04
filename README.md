@@ -42,35 +42,33 @@ Struktur Makefile sendiri terdiri dari
 2. Rules
 
 ### 1. Variable
-    Variable merupakan sebuah variable biasa yang dapat dipake dalam Rules
-
-    Cara melakukan deklarasi variable dalam Makefile yaitu sebagai berikut
-    ```
-    CC = gcc
-    SRC_DIR = src
-    VAR_SUKA_SUKA_SAYA = value suka suka saya
-    ```
-
-    Cara mengakses variable
-    ```
-    $(CC)
-    $(SRC_DIR)
-    $(VAR_SUKA_SUKA_SAYA)
+Variable merupakan sebuah variable biasa yang dapat dipake dalam Rules
+Cara melakukan deklarasi variable dalam Makefile yaitu sebagai berikut
+```
+CC = gcc
+SRC_DIR = src
+VAR_SUKA_SUKA_SAYA = value suka suka saya
+```
+Cara mengakses variable
+```
+$(CC)
+$(SRC_DIR)
+$(VAR_SUKA_SUKA_SAYA)
 
 ### 2. Rules
-    Sebuah Rule memiliki pola standar yang terdiri dari tiga struktur
-    1. TARGET
-    2. PREREQUISITES
-    3. RECEIPES
+Sebuah Rule memiliki pola standar yang terdiri dari tiga struktur
+1. TARGET
+2. PREREQUISITES
+3. RECEIPES
 
 #### 1. Target
-    Target adalah apa yang kita ingin hasilnya dari proses build. Biasanya file berekstensi .o atau file executable
+Target adalah apa yang kita ingin hasilnya dari proses build. Biasanya file berekstensi .o atau file executable
 
 #### 2. Prerequisites
-    Prereq merupakan file apa saja yang dibutuhkan untuk melakukan proses build. biasanya file berekstensi .c atau .h kalau sedang dalam bahasa c atau cpp.
+Prereq merupakan file apa saja yang dibutuhkan untuk melakukan proses build. biasanya file berekstensi .c atau .h kalau sedang dalam bahasa c atau cpp.
 
 #### 3. Receipes
-    Receipes merupakan langkah proses apa saja yang harus dilakukan secara berurutan untuk melakukan proses build
+Receipes merupakan langkah proses apa saja yang harus dilakukan secara berurutan untuk melakukan proses build
 
 ## Bagaimana GNU make berkerja dengan Makefile
 
