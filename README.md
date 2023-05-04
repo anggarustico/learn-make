@@ -54,6 +54,7 @@ Cara mengakses variable
 $(CC)
 $(SRC_DIR)
 $(VAR_SUKA_SUKA_SAYA)
+```
 
 ### 2. Rules
 Sebuah Rule memiliki pola standar yang terdiri dari tiga struktur
